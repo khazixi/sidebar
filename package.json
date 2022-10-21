@@ -4,7 +4,9 @@
   "description": "",
   "main": "hi.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/khazixi/sidebar/issues"
   },
-  "homepage": "https://github.com/khazixi/sidebar#readme"
+  "homepage": "https://github.com/khazixi/sidebar#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.199",
+    "@types/node": "^18.11.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {}
 }
